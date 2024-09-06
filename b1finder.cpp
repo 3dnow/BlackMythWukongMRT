@@ -42,7 +42,7 @@ int main() {
         // 修改内存模式
         DWORD processId = GetProcessIdByName(L"b1-Win64-Shipping.exe");
         if (processId == 0) {
-            std::wcout << L"b1-Win64-Shipping.exe not found. Please start Notepad and try again." << std::endl;
+            std::wcout << L"b1-Win64-Shipping.exe not found. Please start b1-Win64-Shipping and try again." << std::endl;
             LocalFree(argv);
             return 1;
         }
@@ -65,7 +65,7 @@ int main() {
     uint64_t firstValue;
     std::cin >> firstValue;
 
-    // 查找notepad.exe进程
+    // 查找b1-Win64-Shipping.exe进程
     DWORD processId = GetProcessIdByName(L"b1-Win64-Shipping.exe");
     if (processId == 0) {
         std::cout << "b1-Win64-Shipping.exe not found." << std::endl;
