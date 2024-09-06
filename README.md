@@ -54,7 +54,9 @@ The tool will automatically exit after completing the scan in the default mode. 
    - Use the -m flag to modify these addresses to your desired values.
    - Return to the game and gain a small amount of Spark.
    - You should now see your modified Spark value reflected in-game.
-   
+
+You can explore additional modifications and values within the game on your own. However, the methods described above are sufficient for me to completing the game.
+
 ## Requirements
 - Windows operating system
 - Visual Studio 2019 or later (for compilation)
